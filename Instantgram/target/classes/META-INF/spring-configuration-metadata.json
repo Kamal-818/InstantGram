@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.Instantgram.config.StorageProperties",
+      "name": "storage",
+      "type": "com.Instantgram.config.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.Instantgram.config.StorageProperties",
+      "name": "storage.location",
+      "type": "java.lang.String"
+    }
+  ]
+}

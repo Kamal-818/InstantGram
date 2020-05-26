@@ -1,2 +1,2 @@
-# Instant-gram
-Instagram like web-app for practicing Full stack development
+# Instantgram
+Instagram clone web app.

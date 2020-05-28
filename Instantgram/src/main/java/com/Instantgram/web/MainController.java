@@ -53,7 +53,7 @@ public class MainController {
 
 	@GetMapping("/login")
 	public String login(Model model) {
-		return "/auth/login";
+		return "auth/login";
 	}
 
 	@GetMapping("/profile/{uname}")

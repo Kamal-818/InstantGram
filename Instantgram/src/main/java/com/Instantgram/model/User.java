@@ -14,12 +14,11 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.persistence.UniqueConstraint;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
-@Table(uniqueConstraints = @UniqueConstraint(columnNames = "username"))
+@Table(name="Users")
 public class User {
 
     @Id
